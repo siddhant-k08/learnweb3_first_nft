@@ -11,6 +11,9 @@ module.exports = {
     //How do we define which account for deployment
      accounts:[process.env.PRIVATE_KEY],   //Our private key fetched from .env file 
     },
-    
+    amoy:{
+        url:"https://rpc.ankr.com/polygon_amoy",
+        accounts:[process.env.PRIVATE_KEY],
+    },    
   }, 
 };
